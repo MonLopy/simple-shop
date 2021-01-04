@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="b-status b-all">
+            <div class="b-form">
+                <span class="name">Баланс</span>
+                <div class="b-info b1">
+                    <p><span class="count">1000</span>грн</p>
+                </div>
+                <span class="name">Пиво</span>
+                <div class="b-info b2">
+                    <p><span class="count">100</span>шт.</p>
+                </div>
+                <span class="name">Вино</span>
+                <div class="b-info b3">
+                    <p><span class="count">50</span>шт.</p>
+                </div>
+                <span class="name">Пепсі</span>
+                <div class="b-info b4">
+                    <p><span class="count">80</span>шт.</p>
+                </div>
+            </div>
+        </div>
+        <div class="b-all">
+            <form>
+                <div class="b-amount-of-stuff">
+                    <span>Кількість</span>
+
+                </div>
+                <input class="amount" type="text">
+
+                <div class="b-choose-drink">
+                    <pre><input type="radio" name="drink" value="beer"> Пиво</pre>
+                    <pre><input type="radio"  name="drink" value="vine"> Вино</pre>
+                    <pre><input type="radio"  name="drink" value="pepsi"> Пепсі</pre>
+                </div>
+                <div class="b-add btn">
+                    <span>Додати</span>
+                </div>
+                <div class="b-choosen"></div>
+                <div class="b-buy btn">
+                    <span>Купити</span>
+                </div>
+            </form>
+        </div>
+        <div class="b-bought b-all"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="module.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
